@@ -7,11 +7,12 @@ Feature
 -------
 
 -	currently
+	-	neovim only
 	-	executes `tig status` in neovim's vsplit terminal
+	-	don't nest commit editor(if you have [neovim-remote](https://github.com/mhinz/neovim-remote) command)
 -	future
 	-	works with both vim and neovim
 	-	add new command following other tig's subcommand
-	-	don't nest commit editor
 
 Usage
 -----
@@ -44,3 +45,4 @@ Requirements
 
 -	tig
 -	neovim (author's env is neovim-v0.6.0)
+-	neovim-remote (option)
