@@ -9,7 +9,7 @@ endfunction
 
 let s:nvr = s:exist_nvr()
 if s:nvr == 0
-    let nvrcmd = "nvr -cc split --remote-wait"
+    let nvrcmd = "nvr --remote-wait"
     let $VISUAL = nvrcmd
     let $GIT_EDITOR = nvrcmd
     autocmd FileType gitcommit,gitrebase,gitconfig set bufhidden=delete
