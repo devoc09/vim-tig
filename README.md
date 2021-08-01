@@ -13,6 +13,7 @@ Feature
 -	future
 	-	works with both vim and neovim
 	-	add new command following other tig's subcommand
+	-	Windows support
 
 Usage
 -----
